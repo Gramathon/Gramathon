@@ -6,9 +6,7 @@ whether a model's (or agent's) observed behavior actually tracks its intended
 objective over time, versus fitting surface patterns that look like it does.
 
 - **[ERATO](https://github.com/Gramathon/ERATO)** — 
-  ERATO investigates whether successive LoRA adapters induce coherent changes in reasoning-related representations,
-  and whether those changes correlate with behavioural fixes,
-  regressions and held-out preference transfer.
+  ERATO — tracks behavioural and policy-level change across post-training checkpoints (SFT/DPO/GRPO): fixes, regressions, durability, and whether preference-margin shifts (RPMS) transfer to held-out   prompts or reflect pair-specific fitting. Representation-level analysis is planned future work.
 - **[bayzflow](https://github.com/Gramathon/bayzflow)** — converts PyTorch
   models into Pyro-backed Bayesian models for uncertainty-aware prediction.
 
