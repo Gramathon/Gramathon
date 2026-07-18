@@ -2,7 +2,7 @@
 
 Independent researcher exploring epistemic uncertainty, belief formation, and
 policy change in deep learning systems — with a particular interest in
-whether a model's (or agent's) observed behavior actually tracks its intended
+whether a model's observed behavior actually tracks its intended
 objective over time, versus fitting surface patterns that look like it does.
 
 - **[ERATO](https://github.com/Gramathon/ERATO)** — 
