@@ -27,5 +27,17 @@ examples used to produce them.
 - **Medical imaging** — independent DINOv2-based work and participation in the
   RSNA Knee competition.
 
+### EXPCON experiment flow
+
+```mermaid
+flowchart LR
+    C[Experiment contract] --> V[Validate and freeze]
+    V --> B[Build bundle]
+    B --> X[Execute]
+    X --> E[Collect and verify evidence]
+    E --> A[Adjudicate scientific result]
+    R[Frozen acceptance rules] --> A
+```
+
 I’m most interested in research engineering and ML systems work where careful
 experiments and dependable software help answer questions about model behaviour.
